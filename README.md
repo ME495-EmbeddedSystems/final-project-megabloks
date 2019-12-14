@@ -6,7 +6,7 @@
 - Marcel Bonnici
 - Senthil Palanisamy
 
-### Click to Watch on YouTube
+### Click on the image on YouTube
 [![The Baxter Builder](https://i.ytimg.com/vi/mz1FwBR94og/maxresdefault.jpg)](https://youtu.be/mz1FwBR94og "Baxter")
 
 ## 1. Project Overview:
@@ -116,4 +116,6 @@ For this project, Baxter assembles a MEGA BLOKS pyramid from the blocks provided
 	- It calls the AR service, to them them know when to find the block. This controls the flow of the program
 
 ## 5. Lessons Learned
-The ultimate lesson with "The Baxter Builder" is how ambitious locking toy blocks is for a robot. While more time coding and perfecting the physical building space could improve Baxter's performance, his place position sometimes fluctuated by an entire row of studs/circles with the baseplate static between test runs. To make the program absolutely flawless, both software and hardware modifications would be needed.
+The ultimate lesson with "The Baxter Builder" is how ambitious locking toy blocks is for a robot. While more time coding and perfecting the physical building space could improve Baxter's performance, his place position sometimes fluctuated by an entire row of studs/circles with the baseplate static between test runs. To make the program absolutely flawless, both software and hardware modifications would be needed. On the software side, a few things that would have improved performance but weren't tried due to lack of time were
+1. Some kind of closed loop control with camera. Baxter's left hand camera could be used to do fine adjustments to get more accurate positioning a closed loop control fashion
+2. Feedback from gripper could be added to sense if the gripper is indeed holding the object and holding it at its absolute center
